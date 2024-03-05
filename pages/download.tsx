@@ -23,7 +23,7 @@ export default function Download() {
         <h1 className="text-5xl mb-8">Downloads</h1>
         <p className="text-xl mb-8">This is the downloads page.</p>
         {/* GitHub Link Button */}
-        <a href="https://github.com/Dalouma/Magic-Anvil" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        <a href="https://github.com/trevorthebike/MagicAnvilBuild" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
           Visit our GitHub
         </a>
       </div>
