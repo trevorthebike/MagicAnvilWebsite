@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: 100, 0, 0;
   --background-start-rgb: 120, 0, 0;
   --background-end-rgb: 0, 255, 255;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
@@ -20,6 +20,38 @@ body {
   color: rgb(var(--foreground-rgb))
 }
 
+div.team-member{
+  border: saddlebrown 4px solid;;
+  background-color: rgb(247, 247, 247);
+}
+
+.navbarmini{
+  border: 2px solid rgb(153, 52, 52);
+  padding: 10px;
+  align-items: center;
+  background: rgb(17, 27, 59);
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  
+}
+.navbaritems{
+  border: 2px solid rgb(153, 52, 52);
+  padding-inline: 3%;
+  background: rgb(131, 55, 55);
+  color: white;
+  font-size: 16px;
+}
+
+div.main-content {
+  /* Corrected syntax using CSS properties */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem; /* p-24 in Tailwind translates to padding: 6rem; */
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;

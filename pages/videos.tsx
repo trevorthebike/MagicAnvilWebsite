@@ -7,15 +7,11 @@ import Layout from '../components/Layout'; // Adjust the import path as needed
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Video() {
   return (
     <Layout>
-      <main className="flex-1 flex flex-col items-center justify-center p-80" 
-      style={{ backgroundImage: "url('/forgebg.png')", backgroundSize: 'cover', 
-      backgroundPosition: 'center center' }}>
-        <div className="main-content">
-          This is the thing
-          </div>
+      <main className="flex-1 flex flex-col items-center justify-center p-24" >
+        Videos
         {/* Your main content goes here */}
       </main>
     </Layout>

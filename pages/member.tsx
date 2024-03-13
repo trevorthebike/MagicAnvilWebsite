@@ -1,23 +1,17 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Link from 'next/link';
+import Layout from '../components/Layout';
 
 const inter = Inter({ subsets: ["latin"] });
 
 
 export default function Credits() {
   return (
+    <Layout>
+      <main>
     <div className={`min-h-screen flex flex-col ${inter.className}`}>
       {/* Navigation Bar */}
-      <nav className="w-full flex justify-between items-center p-4 shadow-md text-4xl">
-      <Link href="/"><h1>Magic Anvil</h1></Link>
-        <div className="flex gap-16 text-2xl">
-          <Link href="/member">Team Members</Link>
-          <Link href="/credit">Credits</Link>
-          <Link href="/download">Downloads</Link>
-          <Link href="/prototype">Prototypes</Link>
-        </div>
-      </nav>
       <h1 className="title">Our Team Members</h1>
       
       {/* Team Member: Brandon */}
@@ -36,12 +30,14 @@ export default function Credits() {
       <div className="team-member">
         <img src="placeholder-image-url.jpg" alt="Abel's Image" />
         <h3>Abel</h3>
+        This is what Abel did!!!
       </div>
 
       {/* Team Member:  Jacob */}
       <div className="team-member">
         <img src="placeholder-image-url.jpg" alt="Jacob's Image" />
         <h3>Jacob</h3>
+        I was the sole audio designer. I wrote the 2 background music tracks and recorded and edited all sound effects. I was also responsible for compiling and editing the prototype gameplay videos
       </div>
 
       {/* Team Member:  Josey */}
@@ -111,5 +107,7 @@ export default function Credits() {
       </Link>
     </div>
     </div>
+    </main>
+    </Layout>
   );
 }
