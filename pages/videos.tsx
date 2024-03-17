@@ -1,19 +1,30 @@
-// Assuming this is in pages/index.tsx or a similar file
+// Import necessary modules and components
+import Layout from '../components/Layout'; // Adjust the path as necessary
 
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import Link from 'next/link';
-import Layout from '../components/Layout'; // Adjust the import path as needed
-
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Video() {
+const Prototype = () => {
   return (
     <Layout>
-      <main className="flex-1 flex flex-col items-center justify-center p-24" >
-        Videos
-        {/* Your main content goes here */}
-      </main>
+      <main>
+      <h1 className="title">Gameplay Videos</h1>
+    <div className="memberpage">
+      <div className="team-member">
+        <h3>Gameplay 1</h3>
+        <video className = "team-member-image" controls >
+            <source src="/gameplay1.mp4" />
+            Your browser does not support the video tag.
+        </video>
+      </div>
+      <div className="team-member">
+        <h3>Gameplay 2</h3>
+        <video className = "team-member-image" controls >
+            <source src="/gameplay2.mp4" />
+            Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+    </main>
     </Layout>
-  );
-}
+  );Layout
+};
+
+export default Prototype;

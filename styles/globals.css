@@ -17,12 +17,66 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb))
+  color: rgb(var(--foreground-rgb));
+}
+
+.title{
+  text-align: center;
+  border: 4px gold;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.memberpage{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates 2 columns of equal width */
+  gap: 10px;
+  background-color: rgb(209, 63, 63);
+}
+
+section.team-member{
+  border: rgb(238, 238, 238) 4px solid;;
+  background-color: rgb(201, 99, 67);
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
 }
 
 div.team-member{
-  border: saddlebrown 4px solid;;
-  background-color: rgb(247, 247, 247);
+  border: rgb(238, 238, 238) 4px solid;;
+  background-color: rgb(201, 99, 67);
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+}
+
+h3{
+  font-size: 30px;
+  border: 6px solid black;
+}
+
+div.team-member-special{
+  border: rgb(255, 106, 0) 4px solid;;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+  background-color: rgb(122, 211, 252);
+}
+
+p.team-member-content{
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid grey;
+  width: 80%;
+  margin: auto;
+  border: 2px black;
+  padding: 10px;
 }
 
 .navbarmini{
@@ -33,14 +87,27 @@ div.team-member{
   color: white;
   font-size: 32px;
   text-align: center;
-  
 }
+
 .navbaritems{
   border: 2px solid rgb(153, 52, 52);
   padding-inline: 3%;
   background: rgb(131, 55, 55);
   color: white;
   font-size: 16px;
+}
+
+main {
+  min-height: 100vh;
+  background-image: url('/forgebg.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.team-member-image{
+  border: 8px solid black;
+  flex: center;
+  padding: 10px;
 }
 
 div.main-content {
@@ -56,4 +123,25 @@ div.main-content {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* styles/Prototype.module.css */
+
+.container {
+  min-height: 100vh;
+  min-width: 100vh;
+  background-color: rgb(255, 253, 253);
+}
+
+.videoContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  width: 640px;
+  height: 360px;
+}
+
+.button{
+  border: 2px solid black;
 }
