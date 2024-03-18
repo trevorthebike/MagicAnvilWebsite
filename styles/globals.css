@@ -22,7 +22,6 @@ body {
 
 .title{
   text-align: center;
-  border: 4px gold;
   color: white;
   background-color: black;
   text-align: center;
@@ -34,21 +33,19 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Creates 2 columns of equal width */
   gap: 10px;
-  background-color: rgb(209, 63, 63);
+  background-color: rgb(247, 247, 247);
 }
 
-section.team-member{
-  border: rgb(238, 238, 238) 4px solid;;
-  background-color: rgb(201, 99, 67);
-  padding: 10px;
-  margin-bottom: 20px;
-  text-align: center;
-  color: black;
+.mainpage{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Creates 2 columns of equal width */
+  gap: 0px;
 }
 
+section.team-member,
 div.team-member{
-  border: rgb(238, 238, 238) 4px solid;;
-  background-color: rgb(201, 99, 67);
+  border: rgb(0, 0, 0) 4px solid;;
+  background-color: rgb(143, 177, 248);
   padding: 10px;
   margin-bottom: 20px;
   text-align: center;
@@ -58,15 +55,6 @@ div.team-member{
 h3{
   font-size: 30px;
   border: 6px solid black;
-}
-
-div.team-member-special{
-  border: rgb(255, 106, 0) 4px solid;;
-  padding: 10px;
-  margin-bottom: 20px;
-  text-align: center;
-  color: black;
-  background-color: rgb(122, 211, 252);
 }
 
 p.team-member-content{
@@ -90,7 +78,7 @@ p.team-member-content{
 }
 
 .navbaritems{
-  border: 2px solid rgb(153, 52, 52);
+  padding: 10px;
   padding-inline: 3%;
   background: rgb(131, 55, 55);
   color: white;
@@ -105,41 +93,22 @@ main {
 }
 
 .team-member-image{
-  border: 8px solid black;
   flex: center;
   padding: 10px;
 }
 
 div.main-content {
-  /* Corrected syntax using CSS properties */
   display: flex;
   flex: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 6rem; /* p-24 in Tailwind translates to padding: 6rem; */
+  padding: 6rem; 
 }
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-}
-
-/* styles/Prototype.module.css */
-
-.container {
-  min-height: 100vh;
-  min-width: 100vh;
-  background-color: rgb(255, 253, 253);
-}
-
-.videoContainer {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
-  width: 640px;
-  height: 360px;
 }
 
 .button{

@@ -10,14 +10,14 @@ const Prototype = () => {
       <div className="team-member">
         <h3>Lofi Prototype</h3>
         <video className = "team-member-image" controls >
-            <source src="/video1.mp4" />
+            <source src="/video2.mp4" />
             Your browser does not support the video tag.
         </video>
       </div>
       <div className="team-member">
         <h3>Hifi Prototype</h3>
         <video className = "team-member-image" controls >
-            <source src="/video2.mp4" />
+            <source src="/video1.mp4" />
             Your browser does not support the video tag.
         </video>
       </div>

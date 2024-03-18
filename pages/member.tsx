@@ -79,7 +79,6 @@ export default function Credits() {
         </p>
         <div className="flex justify-center items-center">
         <img className="team-member-image" src="rubycontribution.png" alt="Ruby's Image" />
-        <img className="team-member-image" src="ruby2.png" alt="Ruby's Image" />
         </div>
       </div>
 
@@ -96,7 +95,11 @@ export default function Credits() {
       {/* Team Member: Trevor */}
       <div className="team-member">
         <h3>Trevor</h3>
-        <p className ="team-member-content"></p>
+        <p className ="team-member-content">
+          I created the website and did all the hosting. In the begining, I worked on WebGL deployment and on compressing the build to a smaller size.
+          Then I worked on deployment to all deskotp builds. I worked on creating the website with NextJs, hosting it on vercel, and filling out all the content on it.
+          I also worked on the download link, team member contributions, and general UI. I also worked on the game itself, adding the results screen and some of the early scene logic. 
+        </p>
         <img className="team-member-image" src="trevor.png" alt="Trevor's Image" />
       </div>
 
@@ -104,8 +107,8 @@ export default function Credits() {
       {/* Add the rest of your team members here in similar fashion */}
       
       {/* Example for one more member */}
-      <div className="team-member-special">
-      <h1 className ="title">Outside Contributers</h1>
+      <div className="team-member">
+      <h1 className ="title">Outside Contributer</h1>
         <h3>Johnny</h3>
         <p className ="team-member-content">
           I was an artist for the game. I created background art for our game scenes, some UI assets, and created the art for our newspaper scene.
