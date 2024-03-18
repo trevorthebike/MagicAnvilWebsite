@@ -74,7 +74,7 @@ export default function Credits() {
       <div className="team-member">
         <h3>Ruby</h3>
         <p className ="team-member-content">
-        I'm the artist for the game. I designed art assets for many objects. I designed the splash scene. 
+        Im the artist for the game. I designed art assets for many objects. I designed the splash scene. 
         I also translated the game from English to Chinese.
         </p>
         <div className="flex justify-center items-center">

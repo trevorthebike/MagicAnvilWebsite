@@ -8,7 +8,7 @@ export default function Constraints() {
         <div className="mainpage">
           <div className="team-member">
             <h3>Concept</h3>
-              In "Magic Anvil," players step into the shoes of an aspiring blacksmith aiming to become a master craftsman. 
+              In Magic Anvil players step into the shoes of an aspiring blacksmith aiming to become a master craftsman. 
               Through the core gameplay loops of crafting and trading, forge equipment, and sell their creations to earn money and materials. 
               As they progress, they engage in sharpening and forging minigames, and face challenges from three distinct customers, 
               all while managing their reputation and resources to achieve greatness in the realm of blacksmithing.
