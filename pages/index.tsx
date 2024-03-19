@@ -16,7 +16,7 @@ export default function Constraints() {
             <div className="team-member">
             <h3>Gameplay</h3>
             <video className = "team-member-image" controls >
-              <source src="/gameplay1.mp4" />
+              <source src="/shortplay.mp4" />
               Your browser does not support the video tag.
             </video>
             </div>

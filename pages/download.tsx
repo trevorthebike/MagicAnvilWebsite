@@ -13,7 +13,7 @@ export default function Download() {
             <img className="team-member-image" src="windows.jpg" width="300px" height="200px" alt="Windows Image" />
             <p>Click below for Link</p>
             {/* GitHub Link Button */}
-            <a href="https://github.com/trevorthebike/MagicAnvilBuild/archive/main.zip" target="_blank" rel="noopener noreferrer" className="button">
+            <a href="https://github.com/trevorthebike/MagicAnvilBuild/archive/master.zip" target="_blank" rel="noopener noreferrer" className="button">
               Windows Zip
             </a>
           </div>
@@ -22,7 +22,7 @@ export default function Download() {
             <img className="team-member-image" src="mac.png" alt="Mac Image" />
             <p>Click below for Link</p>
             {/* GitHub Link Button */}
-            <a href="https://github.com/trevorthebike/MagicAnvilBuild/archive/main.zip" target="_blank" rel="noopener noreferrer" className="button">
+            <a href="https://github.com/trevorthebike/MagicAnvilMacBuild/archive/master.zip" target="_blank" rel="noopener noreferrer" className="button">
               Mac Zip
             </a>
           </div>
@@ -31,7 +31,7 @@ export default function Download() {
           <img className="team-member-image" src="tux.png" alt="Tux Image" />
             <p>Click below for Link</p>
             {/* GitHub Link Button */}
-            <a href="https://github.com/trevorthebike/MagicAnvilBuild/archive/main.zip" target="_blank" rel="noopener noreferrer" className="button">
+            <a href="https://github.com/trevorthebike/MagicAnvilLinuxBuild/archive/master.zip" target="_blank" rel="noopener noreferrer" className="button">
               Linux Zip
             </a>
           </div>
