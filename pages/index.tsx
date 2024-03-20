@@ -38,7 +38,7 @@ export default function Constraints() {
             <div className="team-member">
             <h3>Accessibility</h3>
               <p>Our game prioritizes inclusivity and accessibility, catering to players with limited vision, dexterity, audition, 
-                and attention by employing brightness and contrast adjustments, simple control schemes, non-reliant sound gameplay, and 
+                and attention by employing simple control schemes, non-reliant sound gameplay, and 
                 natural resting points. We embraced localization by supporting both Chinese and English, with in-game language toggles, culturally adapted assets, 
                 integrated fonts, and comprehensive testing to ensure a seamless experience. The game is designed for offline play, maintains a size under 100 MiB for accessibility, 
                 and offers cross-platform support, demonstrating our commitment to an inclusive, versatile gaming experience.
