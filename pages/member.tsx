@@ -17,7 +17,7 @@ export default function Credits() {
       {/* Team Member: Brandon */}
       <div className="team-member">
        
-        <h3>Brandon</h3>
+        <h3>Brandon Jacobson</h3>
         <p className ="team-member-content">
         I was a programmer for the game. I implemented the saving and loading functionality for the game. 
         I also added the localization support for multiple languages.
@@ -27,7 +27,7 @@ export default function Credits() {
       
       {/* Team Member: David */}
       <div className="team-member">
-        <h3>David</h3>
+        <h3>David Amaya</h3>
         <p className ="team-member-content">
         I was the lead designer for the game. I designed and implemented the microgames and the core gameplay loop. 
         I also led some team meetings in the beginning and did a lot of programming.
@@ -37,7 +37,7 @@ export default function Credits() {
 
       {/* Team Member: Abel */}
       <div className="team-member">
-        <h3>Abel</h3>
+        <h3>Abel Goy</h3>
         <p className ="team-member-content">I was the Producer for Sprints 2 and 3 of the project, 
         duties consisted of creating meeting agendas, keeping track of tasks, 
         and writing meeting summaries. I was also the  Pixel Artist in charge of designing/animating 
@@ -48,7 +48,7 @@ export default function Credits() {
 
       {/* Team Member:  Jacob */}
       <div className="team-member">
-        <h3>Jacob</h3>
+        <h3>Jacob Dickerman</h3>
         <p className ="team-member-content">I was the sole audio designer. 
         I wrote the 2 background music tracks and recorded and edited all sound effects. 
         I was also responsible for compiling and editing the prototype gameplay videos
@@ -61,7 +61,7 @@ export default function Credits() {
 
       {/* Team Member:  Josey */}
       <div className="team-member">
-        <h3>Josey</h3>
+        <h3>Josey Verespey</h3>
         <p className ="team-member-content">
         I was the main systems programmer, the bulk of the core gameplay outside of the microgames,
          the main shop scene, systems and functionality  were implemented by me. 
@@ -72,7 +72,7 @@ export default function Credits() {
 
       {/* Team Member: Ruby */}
       <div className="team-member">
-        <h3>Ruby</h3>
+        <h3>Ruby Tseng</h3>
         <p className ="team-member-content">
         Im the artist for the game. I designed art assets for many objects. I designed the splash scene. 
         I also translated the game from English to Chinese.
@@ -84,7 +84,7 @@ export default function Credits() {
 
       {/* Team Member: Alyse */}
       <div className="team-member">
-        <h3>Alyse</h3>
+        <h3>Alyse Rose</h3>
         <p className ="team-member-content">
         I was the UI/UX designer for the game. I helped design the crafting menu, border art, timing bar, and the volume slider.
          I also created scene flows and other sketches of UI assets for the game and made sure they were user friendly and easy to follow.
@@ -94,7 +94,7 @@ export default function Credits() {
 
       {/* Team Member: Trevor */}
       <div className="team-member">
-        <h3>Trevor</h3>
+        <h3>Trevor Gardner</h3>
         <p className ="team-member-content">
           I created the website and did all the hosting. In the begining, I worked on WebGL deployment and on compressing the build to a smaller size.
           Then I worked on deployment to all deskotp builds. I worked on creating the website with NextJs, hosting it on vercel, and filling out all the content on it.
@@ -109,7 +109,7 @@ export default function Credits() {
       {/* Example for one more member */}
       <div className="team-member">
       <h1 className ="title">Outside Contributer</h1>
-        <h3>Johnny</h3>
+        <h3>Johnny Wong</h3>
         <p className ="team-member-content">
           I was an artist for the game. I created background art for our game scenes, some UI assets, and created the art for our newspaper scene.
           </p>

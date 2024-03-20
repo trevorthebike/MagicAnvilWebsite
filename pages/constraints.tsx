@@ -10,7 +10,7 @@ export default function Constraints() {
             <h3>Accessibility</h3>
             <p>Our game was designed to be inclusive, ensuring that players with limited abilities could complete it. Heres how we addressed various accessibility challenges:</p>
             <ul>
-              <li><strong>Limited Vision (Seeing):</strong> We used brightness and contrast adjustments over color differentiation, implemented continuous motion for interactive elements, and prioritized visual elements with animated transitions.</li>
+              <li><strong>Limited Vision (Seeing):</strong> We used color differentiation, implemented continuous motion for interactive elements, and prioritized visual elements with animated transitions.</li>
               <li><strong>Limited Dexterity (Touching):</strong> The game can be played with one hand, utilizing simple control schemes that may include multi-button or multi-finger gestures.</li>
               <li><strong>Limited Audition (Hearing):</strong> We ensured the game is completable without sound, complementing any auditory feedback with visual or tactile feedback.</li>
               <li><strong>Limited Energy and Attention (Resting):</strong> The gameplay was designed to reach natural resting points within two minutes, allowing players to pause or rest without additional actions.</li>

@@ -15,6 +15,7 @@ export default function Constraints() {
             </div>
             <div className="team-member">
             <h3>Gameplay</h3>
+            <p>This is our vertical slice of our game that was created at UCSC in Winter 24 CMPM171</p>
             <video className = "team-member-image" controls >
               <source src="/shortplay.mp4" />
               Your browser does not support the video tag.
@@ -23,15 +24,15 @@ export default function Constraints() {
             <div className="team-member">
               <h3>Our Team Members</h3> 
               <ul>
-                <li>Brandon</li>
-                <li>David</li>
-                <li>Abel</li>
-                <li>Jacob</li>
-                <li>Josey</li>
-                <li>Ruby</li>
-                <li>Alyse</li>
-                <li>Trevor</li>
-                <li>Johnny</li>
+                <li>Brandon Jacobson</li>
+                <li>David Amaya</li>
+                <li>Abel Goy</li>
+                <li>Jacob Dickerman</li>
+                <li>Josey Verespey</li>
+                <li>Ruby Tseng</li>
+                <li>Alyse Rose</li>
+                <li>Trevor Gardner</li>
+                <li>Johnny Wong</li>
             </ul>
             </div>
             <div className="team-member">
