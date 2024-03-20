@@ -15,9 +15,9 @@ export default function Download() {
             Follow these instructions to download and start playing on your computer.
             </p><br></br>
             <p><p></p>Click on the icon for your operating system (Windows, Mac, Linux) to start the download.
-            After downloading, locate the .zip file in your Downloads folder, right-click, and select "Extract All..." or "Unzip...".
+            After downloading, locate the .zip file in your Downloads folder, right-click, and select Extract All or Unzip
             Navigate to the extracted folder.
-            Find the .exe file (it might be named after the game or simply 'play').
+            Find the .exe file.
             Double-click on the .exe file to start the game.
             </p>
             <img className="team-member-image" src="windows.jpg" width="300px" height="200px" alt="Windows Image" />
@@ -34,7 +34,7 @@ export default function Download() {
             Follow these instructions to download and start playing on your computer.
             </p><br></br>
             <p><p></p>Click on the icon for your operating system (Windows, Mac, Linux) to start the download.
-            After downloading, locate the .zip file in your Downloads folder, right-click, and select "Extract All..." or "Unzip...".
+            After downloading, locate the .zip file in your Downloads folder, right-click, and select Extract All or Unzip
             Navigate to the extracted folder.
                 Find the application file (it might end with .app).
                 Double-click on the application file to start the game.
@@ -54,7 +54,7 @@ export default function Download() {
             Follow these instructions to download and start playing on your computer.
             </p><br></br>
             <p><p></p>Click on the icon for your operating system (Windows, Mac, Linux) to start the download.
-            After downloading, locate the .zip file in your Downloads folder, right-click, and select "Extract All..." or "Unzip...".
+            After downloading, locate the .zip file in your Downloads folder, right-click, and select Extract All or Unzip
             Navigate to the extracted folder using a terminal.
             Find the game executable file (it might not have an extension or could be a .x86 or .x86_64 file).
             Double-click on the application file to start the game.
