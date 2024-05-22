@@ -87,9 +87,6 @@ p.team-member-content{
 
 main {
   min-height: 100vh;
-  background-image: url('/forgebg.png');
-  background-size: cover;
-  background-position: center center;
 }
 
 .team-member-image{

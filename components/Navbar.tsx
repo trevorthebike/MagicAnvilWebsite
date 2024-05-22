@@ -14,6 +14,7 @@ const Navbar: React.FC = () => {
         <Link className="navbaritems" href="/videos">Gameplay Videos</Link>
         <Link className="navbaritems" href="/constraints">Constraints</Link>
         <Link className="navbaritems"href="/download">Downloads</Link>
+        <Link className="navbaritems"href="/privacy">Privacy Policy</Link>
       </div>
     </nav>
   );
